@@ -10,7 +10,7 @@ import './stylesheets/hogwash.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { API_WS_ROOT } from './constants';
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <ActionCableProvider url={API_WS_ROOT}>
