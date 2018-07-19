@@ -1,0 +1,88 @@
+.piggy-thoughts {
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  position: absolute;
+}
+
+.chat-bubble {
+  padding: 10%;
+  width: 100%;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 5px;
+  position: relative;
+  bottom: 60px;
+}
+
+.piggy-thoughts input {
+  height: 1em;
+  font-size: 1em;
+  padding: 2%;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 5px;
+  bottom: 40px;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 300;
+  letter-spacing: .1em;
+}
+
+.name-display {
+  position: absolute;
+  top: 12vh;
+  left: 20%;
+  font-size: 2em;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at center, #fcd7de 0%,#f9c0ca 100%);
+}
+
+.body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+}
+
+.video-chat-container {
+  border-radius: 100%;
+  overflow: hidden;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+}
+
+.video-chat {
+  left: -35%;
+  position: absolute;
+  height: 130%;
+}
+
+.body-display {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.pig-body {
+  position: absolute;
+  width: 100%;
+}
+
+.pig-head {
+  position: absolute;
+  width: 55%;
+  left: 5%;
+}
+
+.snoot {
+  position: absolute;
+  left: 24%;
+  margin-top: 27%;
+  width: 15%;
+}
