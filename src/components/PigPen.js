@@ -133,7 +133,7 @@ class PigPen extends React.Component {
 
   renderPigs(){
     return this.state.pigs.map(s => <Pig
-        activePig={parseInt(s.pig_id) === parseInt(this.props.userPig.id)}
+        activePig={parseInt(s.pig_id, 10) === parseInt(this.props.userPig.id, 10)}
         key={s.id}
         id={s.id}
         x={s.x_coord}
@@ -159,7 +159,7 @@ class PigPen extends React.Component {
          Return to Lobby
        </div>
       {this.state.pigs.map(s => <Pig
-          activePig={parseInt(s.pig_id) === parseInt(this.props.userPig.id)}
+          activePig={parseInt(s.pig_id, 10) === parseInt(this.props.userPig.id, 10)}
           userPig={this.props.userPig}
           key={s.id}
           id={s.pig_id}

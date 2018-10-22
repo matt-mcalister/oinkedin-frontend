@@ -21,7 +21,7 @@ class HogWash extends React.Component {
   }
 
   handleFitnessChoice = (e) => {
-    this.setState({fitness: parseInt(e.target.value)})
+    this.setState({fitness: parseInt(e.target.value, 10)})
   }
 
   handleGreasedChoice = (e) => {

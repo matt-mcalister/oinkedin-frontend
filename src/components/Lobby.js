@@ -1,5 +1,4 @@
 import React from "react";
-import Pig from "./Pig"
 import PigPenItem from "./PigPenItem"
 import { API_ROOT, HEADERS } from '../constants';
 import { ActionCable } from 'react-actioncable-provider';

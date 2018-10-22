@@ -1,5 +1,4 @@
 import React from "react";
-import VideoChat from "./VideoChat"
 import { API_ROOT, HEADERS } from '../constants';
 import DisplayOnlyPig from './DisplayOnlyPig'
 

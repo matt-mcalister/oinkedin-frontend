@@ -20,7 +20,7 @@ class Welcome extends React.Component {
     return (
       <div id="welcome-body">
         <div id="main-content">
-          <img id="logo" src={require("../images/oinkedIn.png")} />
+          <img id="logo" src={require("../images/oinkedIn.png")} alt="Welcome"/>
           <h3 id="welcome">Welcome, Y'Oinker!</h3>
           <form onSubmit={ this.handleSubmit }>
             <input id="new-piggy-name" type="text" value={this.state.pigName} onChange={this.handleChange} placeholder="Type Your Piggy Name..."/>

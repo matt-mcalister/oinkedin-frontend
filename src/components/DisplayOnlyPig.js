@@ -1,7 +1,4 @@
 import React from "react";
-import VideoChat from "./VideoChat"
-import { API_ROOT, HEADERS } from '../constants';
-import Post from '../images/Post'
 import JackedPigGreased from '../images/Piggies/JackedPigGreased'
 import JackedPigUngreased from '../images/Piggies/JackedPigUngreased'
 import FatPigGreased from '../images/Piggies/FatPigGreased'
@@ -23,6 +20,8 @@ class DisplayOnlyPig extends React.Component {
         return <RegularPigGreased color={this.props.color}/>
       case 2:
         return <JackedPigGreased color={this.props.color}/>
+      default:
+        return null;
     }
   } else {
     switch(this.props.fitness) {
@@ -32,6 +31,8 @@ class DisplayOnlyPig extends React.Component {
         return <RegularPigUngreased color={this.props.color}/>
       case 2:
         return <JackedPigUngreased color={this.props.color}/>
+      default:
+        return null;
       }
     }
   }
