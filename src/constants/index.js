@@ -1,5 +1,5 @@
-export const API_ROOT = 'http://localhost:3001';
-export const API_WS_ROOT = 'ws://localhost:3001/cable';
+export const API_ROOT = 'https://oinkedin-backend.herokuapp.com';
+export const API_WS_ROOT = 'ws://oinkedin-backend.herokuapp.com/cable';
 
 export const HEADERS = {
   'Content-Type': 'application/json',
