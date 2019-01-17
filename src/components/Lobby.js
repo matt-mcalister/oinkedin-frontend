@@ -56,7 +56,7 @@ class Lobby extends React.Component {
       method: "POST",
       headers: HEADERS,
       body: JSON.stringify(newPen)
-    }).then(r => this.handlePigPenChoice(newPen))
+    }).then(r => this.props.handlePigPenChoice(newPen))
   }
 
 
